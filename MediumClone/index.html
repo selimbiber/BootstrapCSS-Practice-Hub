@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/medium.logo.png" />
+    <title>Medium</title>
+  </head>
+  <body>
+    <header class="bg-primary-yellow border-bottom-dark sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/medium-vector-logo.svg" width="170" alt="Medium" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-reset ps-3" href="#">Our story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-reset ps-3" href="#">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-reset ps-3" href="#">Write</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-reset ps-3" href="#">Sign In</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link btn-cta btn-dark text-light rounded-pill" href="#"
+                  >Get started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section bg-primary-yellow border-bottom-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 hero-content">
+            <h1 class="hero-title">Stay curious.</h1>
+            <p class="hero-description">
+              Discover stories, thinking, and expertise <br />
+              from writers on any topic.
+            </p>
+            <a href="#" class="btn btn-cta-large btn-dark text-light rounded-pill"
+              >Start reading</a
+            >
+          </div>
+          <div class="col-lg-4 col-md-12 d-none d-lg-block">
+            <img
+              src="assets/red-sun.svg"
+              class="float-end hero-image"
+              width="500"
+              height="500"
+              alt="Red sun"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trending-section container py-5">
+      <header class="section-header">
+        <h2 class="section-title">
+          <i class="fa-solid fa-chart-line me-2 mb-2"></i>Trending on Medium
+        </h2>
+      </header>
+
+      <div class="row">
+        <article class="col-lg-4 col-md-6 trending-article">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">01</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Andy Walker</a>
+              </div>
+              <h3 class="article-title fw-bold">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit!
+              </h3>
+              <div class="article-metadata">
+                <span>Jan 24 · 8 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-lg-4 col-md-6 trending-article">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">02</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Rodney Ingram</a>
+              </div>
+              <h3 class="article-title fw-bold">
+                Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.
+              </h3>
+              <div class="article-metadata">
+                <span>Jan 25 · 7 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-lg-4 col-md-6 trending-article">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">03</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Savanna Gordon</a>
+              </div>
+              <h3 class="article-title fw-bold">
+                Aliquam erat volutpat. Quisque finibus mollis eleifend.
+              </h3>
+              <div class="article-metadata">
+                <span>Feb 3 · 5 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-lg-4 col-md-6 trending-article trend-row-2">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">04</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Sandra Harmon</a>
+              </div>
+              <h3 class="article-title fw-bold">Praesent maximus nisi nulla.</h3>
+              <div class="article-metadata">
+                <span>Feb 1 · 5 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-lg-4 col-md-6 trending-article trend-row-2">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">05</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Audrey Brown</a>
+              </div>
+              <h3 class="article-title fw-bold">
+                Cras tristique nisi felis, a accumsan dolor.
+              </h3>
+              <div class="article-metadata">
+                <span>Jan 14 · 8 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-lg-4 col-md-6 trending-article trend-row-2">
+          <div class="row">
+            <div class="col-1">
+              <span class="trending-number">06</span>
+            </div>
+            <div class="col-11 article-content">
+              <div class="author-info">
+                <img
+                  class="rounded-circle author-avatar"
+                  src="assets/User-Profile.png"
+                  height="20"
+                  width="20"
+                  alt="User avatar"
+                />
+                <a href="#" class="author-name">Rashad Hart</a>
+              </div>
+              <h3 class="article-title fw-bold">Etiam at tempor odio, eu tempus nis.</h3>
+              <div class="article-metadata">
+                <span>Jan 21 · 8 min read</span>
+                <span class="member-only">
+                  <i class="fa-solid fa-star text-warning" title="Member-only story"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <main class="main-content border-top-light">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-8">
+            <section class="featured-articles">
+              <article class="featured-article row mb-5">
+                <div class="col-md-8 article-info">
+                  <div class="author-info">
+                    <img
+                      class="rounded-circle author-avatar"
+                      src="assets/User-Profile.png"
+                      height="20"
+                      width="20"
+                      alt="User avatar"
+                    />
+                    <a href="#" class="author-name">Delaney Montgomery</a>
+                  </div>
+                  <h2 class="mt-2 fw-bold article-title">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Maecenas suscipit faucibus semper.</a
+                    >
+                  </h2>
+                  <p class="article-excerpt">
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >Fusce id semper est, ac pretium dolor.</a
+                    >
+                  </p>
+                  <div class="article-metadata">
+                    <span>Jan 24 · 8 min read</span>
+                    <span class="tag-pill rounded-pill">New Year Resolution</span>
+                    <span class="member-only">
+                      <i
+                        class="fa-solid fa-star text-warning"
+                        title="Member-only story"
+                      ></i>
+                    </span>
+                    <a href="#" class="bookmark-link float-end">
+                      <img
+                        src="assets/bookmark.png"
+                        height="20"
+                        width="20"
+                        alt="Bookmark"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 article-image">
+                  <img
+                    src="https://picsum.photos/id/1/200/134"
+                    class="img-fluid rounded"
+                    alt="Article image"
+                  />
+                </div>
+              </article>
+
+              <article class="featured-article row mb-5">
+                <div class="col-md-8 article-info">
+                  <div class="author-info">
+                    <img
+                      class="rounded-circle author-avatar"
+                      src="assets/User-Profile.png"
+                      height="20"
+                      width="20"
+                      alt="User avatar"
+                    />
+                    <a href="#" class="author-name">Tanisha Newton</a>
+                  </div>
+                  <h2 class="mt-2 fw-bold article-title">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Cras id tortor neque. Donec iaculis dui.</a
+                    >
+                  </h2>
+                  <p class="article-excerpt">
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >Mauris sagittis sapien lectus, ut feugiat tellus.</a
+                    >
+                  </p>
+                  <div class="article-metadata">
+                    <span>Jan 18 · 3 min read</span>
+                    <span class="tag-pill rounded-pill">Life Lessons</span>
+                    <span class="member-only">
+                      <i
+                        class="fa-solid fa-star text-warning"
+                        title="Member-only story"
+                      ></i>
+                    </span>
+                    <a href="#" class="bookmark-link float-end">
+                      <img
+                        src="assets/bookmark.png"
+                        height="20"
+                        width="20"
+                        alt="Bookmark"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 article-image">
+                  <img
+                    src="https://picsum.photos/id/10/200/134"
+                    class="img-fluid rounded"
+                    alt="Article image"
+                  />
+                </div>
+              </article>
+
+              <article class="featured-article row mb-5">
+                <div class="col-md-8 article-info">
+                  <div class="author-info">
+                    <img
+                      class="rounded-circle author-avatar"
+                      src="assets/User-Profile.png"
+                      height="20"
+                      width="20"
+                      alt="User avatar"
+                    />
+                    <a href="#" class="author-name">Kelsey Hernandez</a>
+                  </div>
+                  <h2 class="mt-2 fw-bold article-title">
+                    <a href="#" class="text-decoration-none text-dark"
+                      >Donec tempus efficitur risus, in tincidunt libero.</a
+                    >
+                  </h2>
+                  <p class="article-excerpt">
+                    <a href="#" class="text-decoration-none text-secondary"
+                      >In hac habitasse platea dictumst. Cras eget.</a
+                    >
+                  </p>
+                  <div class="article-metadata">
+                    <span>Jan 18, 2022 · 5 min read</span>
+                    <span class="tag-pill rounded-pill">User Experience</span>
+                    <span class="member-only">
+                      <i
+                        class="fa-solid fa-star text-warning"
+                        title="Member-only story"
+                      ></i>
+                    </span>
+                    <a href="#" class="bookmark-link float-end">
+                      <img
+                        src="assets/bookmark.png"
+                        height="20"
+                        width="20"
+                        alt="Bookmark"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 article-image">
+                  <img
+                    src="https://picsum.photos/id/15/200/134"
+                    class="img-fluid rounded"
+                    alt="Article image"
+                  />
+                </div>
+              </article>
+            </section>
+          </div>
+
+          <div class="col-lg-4">
+            <aside class="sidebar">
+              <div class="discover-section">
+                <h4 class="discover">Discover more of what matters to you</h4>
+                <div class="aside-buttons-1">
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Self Improvement</a
+                  >
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Data Science</a
+                  >
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Technology</a
+                  >
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Programming</a
+                  >
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Productivity</a
+                  >
+                  <a href="#" class="btn btn-light btn-sm rounded-pill mb-2 me-1"
+                    >Psychology</a
+                  >
+                </div>
+                <div class="second-border-top-dark mt-3 pt-3">
+                  <ul class="list-inline footer">
+                    <li class="list-inline-item"><a href="#">Help</a></li>
+                    <li class="list-inline-item"><a href="#">Status</a></li>
+                    <li class="list-inline-item"><a href="#">Writers</a></li>
+                    <li class="list-inline-item"><a href="#">Blog</a></li>
+                    <li class="list-inline-item"><a href="#">Careers</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">About</a></li>
+                  </ul>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer bg-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">&copy; 2025 Medium. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item"><a href="#">Terms</a></li>
+              <li class="list-inline-item"><a href="#">Privacy</a></li>
+              <li class="list-inline-item"><a href="#">Help</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
